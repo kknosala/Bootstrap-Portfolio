@@ -1,3 +1,48 @@
-.profilepic {
-    width: 200px;
+h1 {
+    font-size: 28px;
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/beige-tiles.png");
+    background-color: beige;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #666666;
+    border-top: 5px teal solid;
+    color: #ffffff;
+
+}
+
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 4px #dddddd solid;
+    min-height: 100px;
+}
+
+.logo {
+    position: absolute;
+    bottom: 0px;
+    float: left;
+    background-color: teal;
+    color: #ffffff;
+    height: 70px;
+    width: 150px;
+}
+
+.main {
+    background-color: #ffffff;
+    border: 2px #dddddd solid;
+}
+
+.portimage {
+    margin: auto;
+    display: block;
+    padding: 10px;
 }
