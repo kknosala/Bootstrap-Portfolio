@@ -42,7 +42,17 @@ footer {
 }
 
 .portimage {
+    position: relative;
     margin: auto;
     display: block;
     padding: 10px;
+}
+
+.imgtext {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    background-color: teal;
+    margin: auto;
+    display: block;
 }
