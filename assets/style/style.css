@@ -59,6 +59,9 @@ body {
     margin-top: 15px;
 }
 
+.portimage {
+    margin: auto;
+}
 .myfooter {
     position: absolute;
     bottom: 0;
