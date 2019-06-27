@@ -25,18 +25,15 @@ body {
 
 .heading {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 4px #dddddd solid;
+    border-bottom: 6px #dddddd solid;
     min-height: 100px;
 }
 
 .logo {
-    position: absolute;
-    bottom: 0px;
-    float: left;
+    margin: auto;
     background-color: teal;
-    color: #ffffff;
-    height: 70px;
-    width: 150px;
+    padding: 30px;
+    text-align: center;
 }
 
 .page-container {
@@ -46,8 +43,6 @@ body {
 
 .content-wrap {
     padding-bottom: 4.5rem;
-    /*background-color: #ffffff;
-    border: 2px #dddddd solid;*/
 }
 
 .mainarticle {
