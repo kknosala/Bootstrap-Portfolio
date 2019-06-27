@@ -59,9 +59,6 @@ body {
     margin-top: 15px;
 }
 
-.portimage {
-    margin: auto;
-}
 .myfooter {
     position: absolute;
     bottom: 0;
@@ -71,4 +68,32 @@ body {
     background-color: #666666;
     border-top: 10px teal solid;
     color: #ffffff;
+}
+.portcontainer {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+
+.portimage {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.portoverlay {
+    position: absolute;
+    bottom: 10px;
+    background: teal;
+    color: #fff;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.portcontainer:hover .portoverlay {
+    opacity: 1;
 }
